@@ -1,0 +1,232 @@
+{
+  "Instagram": {
+    "url": "https://www.instagram.com/{}/",
+    "exists": "\"is_private\":",
+    "not_exists": "Sorry, this page isn't available"
+  },
+  "Facebook": {
+    "url": "https://www.facebook.com/{}/",
+    "exists": "profile_pic",
+    "not_exists": "This Page Isn't Available" 
+  },
+    "LinkedIn": {
+    "url": "https://www.linkedin.com/in/{}/",
+    "headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "exists": [
+      "publicIdentifier",
+      "profile.urn",
+      "ProfilePage"
+    ],
+    "not_exists": [
+      "profile not found",
+      "This page doesn't exist",
+      "error-page"
+    ],
+    "status_code": [200, 999]
+  },
+  "Twitter": {
+        "url": "https://twitter.com/{}",
+        "pattern": "profile"
+    },
+  "TikTok": {
+    "url": "https://www.tiktok.com/@{}",
+    "exists": "\"userInfo\":",
+    "not_exists": "Couldn't find this account"
+  },
+  "YouTube": {
+    "url": "https://www.youtube.com/@{}",
+    "exists": "channelRenderer",
+    "not_exists": "404"
+  },
+  "Reddit": {
+    "url": "https://www.reddit.com/user/{}/",
+    "exists": "\"subreddit\":",
+    "not_exists": "page not found"
+  },
+  "Snapchat": {
+    "url": "https://www.snapchat.com/add/{}",
+    "exists": "\"snapcode\"",
+    "not_exists": "Page Not Found"
+  },
+  "Discord": {
+    "url": "https://discord.com/users/{}",
+    "exists": "username",
+    "not_exists": "Unknown User"
+  },
+  "GitHub": {
+    "url": "https://github.com/{}",
+    "exists": "avatar-user",
+    "not_exists": "Not Found"
+  },
+  "GitLab": {
+    "url": "https://gitlab.com/{}",
+    "exists": "profile",
+    "not_exists": "404"
+  },
+  "Pinterest": {
+    "url": "https://www.pinterest.com/{}/",
+    "exists": "name\":\"",
+    "not_exists": "Nothing here yet"
+  },
+  "Twitch": {
+    "url": "https://www.twitch.tv/{}",
+    "exists": "\"channel_id\"",
+    "not_exists": "cannot be found"
+  },
+  "Steam": {
+    "url": "https://steamcommunity.com/id/{}/",
+    "exists": "profile_header",
+    "not_exists": "profile not found"
+  },
+  "VK": {
+    "url": "https://vk.com/{}",
+    "exists": "page_name",
+    "not_exists": "profile was deleted"
+  },
+  "Tumblr": {
+    "url": "https://{}.tumblr.com",
+    "exists": "tumblr.com/blog",
+    "not_exists": "There's nothing here"
+  },
+  "Medium": {
+    "url": "https://medium.com/@{}",
+    "exists": "\"user\"",
+    "not_exists": "404"
+  },
+  "Flickr": {
+    "url": "https://www.flickr.com/people/{}/",
+    "exists": "Photostream",
+    "not_exists": "Page Not Found"
+  },
+  "Kaggle": {
+    "url": "https://www.kaggle.com/{}",
+    "exists": "profile-header",
+    "not_exists": "404"
+  },
+  "Replit": {
+    "url": "https://replit.com/@{}",
+    "exists": "profile",
+    "not_exists": "Repl Not Found"
+  },
+  "AskFM": {
+    "url": "https://ask.fm/{}",
+    "exists": "profileInfo",
+    "not_exists": "User not found"
+  },
+  "Duolingo": {
+    "url": "https://www.duolingo.com/profile/{}",
+    "exists": "profile",
+    "not_exists": "404"
+  },
+  "Spotify": {
+    "url": "https://open.spotify.com/user/{}",
+    "exists": "spotify:profile",
+    "not_exists": "404"
+  },
+  "SoundCloud": {
+    "url": "https://soundcloud.com/{}",
+    "exists": "profileHeader",
+    "not_exists": "We can't find that user"
+  },
+  "ROBLOX": {
+    "url": "https://www.roblox.com/user.aspx?username={}",
+    "exists": "profile-name",
+    "not_exists": "Page cannot be found"
+  },
+  "DeviantArt": {
+    "url": "https://www.deviantart.com/{}",
+    "exists": "artist",
+    "not_exists": "404"
+  },
+  "CodePen": {
+    "url": "https://codepen.io/{}/",
+    "exists": "profile-header",
+    "not_exists": "Page Not Found"
+  },
+  "ProductHunt": {
+    "url": "https://www.producthunt.com/@{}",
+    "exists": "\"maker\"",
+    "not_exists": "404"
+  },
+  "LastFM": {
+    "url": "https://www.last.fm/user/{}",
+    "exists": "header-profile-user",
+    "not_exists": "User not found"
+  },
+  "GoodReads": {
+    "url": "https://www.goodreads.com/{}",
+    "exists": "userProfile",
+    "not_exists": "404"
+  },
+  "MyAnimeList": {
+    "url": "https://myanimelist.net/profile/{}",
+    "exists": "UserProfile",
+    "not_exists": "404"
+  },
+  "Trello": {
+    "url": "https://trello.com/{}","exists": "member-username",
+    "not_exists": "Not found"
+  },
+  "XDA": {
+    "url": "https://forum.xda-developers.com/m/{}/",
+    "exists": "Profile",
+    "not_exists": "Not found"
+  },
+  "Behance": {
+    "url": "https://www.behance.net/{}",
+    "exists": "UserInfo",
+    "not_exists": "Page not found"
+  },
+  "500px": {
+    "url": "https://500px.com/{}",
+    "exists": "profile",
+    "not_exists": "404"
+  },
+  "Dribbble": {
+    "url": "https://dribbble.com/{}",
+    "exists": "profile",
+    "not_exists": "Sorry, that page doesn’t exist"
+  },
+  "Patreon": {
+    "url": "https://www.patreon.com/{}",
+    "exists": "Creator",
+    "not_exists": "page not found"
+  },
+  "Blogger": {
+    "url": "https://{}.blogspot.com",
+    "exists": "blog",
+    "not_exists": "Blog not found"
+  },
+  "IFTTT": {
+    "url": "https://ifttt.com/p/{}",
+    "exists": "profile",
+    "not_exists": "404"
+  },
+  "Wattpad": {
+    "url": "https://www.wattpad.com/user/{}",
+    "exists": "profile-header",
+    "not_exists": "User not found"
+  },
+  "ReverbNation": {
+    "url": "https://www.reverbnation.com/{}",
+    "exists": "artist",
+    "not_exists": "not found"
+  },
+  "CashApp": {
+    "url": "https://cash.app/${}",
+    "exists": "profile",
+    "not_exists": "Page not found"
+  },
+  "OKCupid": {
+    "url": "https://www.okcupid.com/profile/{}",
+    "exists": "user",
+    "not_exists": "does not exist"
+  },
+  "Flipboard": {
+    "url": "https://flipboard.com/@{}",
+    "exists": "\"profile\"",
+    "not_exists": "404"
+  }
+}
